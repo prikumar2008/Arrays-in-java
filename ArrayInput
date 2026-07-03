@@ -1,0 +1,41 @@
+import java.util.Scanner;
+
+public class ArrayInput {
+    public static void main(String[] args) {
+//        Scanner sc = new Scanner(System.in);
+//        System.out.println("Enter the size of the array:");
+//        int size,x;
+//        size = sc.nextInt();
+//        int[] arr = new int[size];
+//        for(int i = 0; i < size; i++){
+//                                          //ye wala loop arr ko size ke andar values assign karega
+//            x = sc.nextInt();             //yaha pe x array ke ander ki value hai
+//            arr[i] = x;                   //yaha hamne us value ko placew assign kara diya hai ok.
+//                                          //hamare pass ak easy method bhi hai
+//                                           //ye bhi ak tarika hai->>>   arr[i]=sc.nextInt();
+//        }
+//        for(int i = 0; i < size; i++){
+//
+//            System.out.print(arr[i] + " "); //array ke andar values print karega
+//        }
+//
+//        default values
+//        int[] n = new int [5];
+//        for (int i = 0; i < n.length; i++) {
+//
+//            System.out.print(n[i]+ " ");
+//        }
+//        System.out.println( n.length+ "\n");
+//
+//        //question-1 : hame ak aarray ke sare negative values print karne hai
+
+        int [] x = {10,-4,-8,11,-7,-1};
+        for(int i =0; i<x.length; i++){
+            if(x[i]<0){
+                System.out.println(x[i]);
+            }
+        }
+
+
+    }
+}
